@@ -9,11 +9,11 @@ function Page({ currentCategory }) {
 
     const renderPage = () => {
         console.log( currentCategory.name );
-        switch (currentCategory) {
+        switch (currentCategory.name) {
             case 'about me':
-                return <About />;
+                return <About  />;
             case 'projects':
-                return <Gallery />;
+                return <Gallery currentCategory = { currentCategory } />;
             case 'contact':
                 return <ContactForm />;
             case 'resume':

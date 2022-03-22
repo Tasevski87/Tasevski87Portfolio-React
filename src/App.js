@@ -11,8 +11,8 @@ import Page from './components/Page';
 
 function App() {
   const [categories] = useState([
-    { name: 'about me '},
-    { name: 'contact'},
+    { name: 'About me ' },
+    { name: 'contact' },
     { name: 'projects' },
     { name: 'resume' }
   ]);
