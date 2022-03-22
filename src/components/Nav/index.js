@@ -35,6 +35,13 @@ function Nav(props) {
                         Contact
                         </span>
                     </li>
+
+                    <li className="mx-2">
+                        <a href="#resume" onClick={() => setContactSelected(false)}>
+                            Resume
+                        </a>
+                        
+                    </li>
                     {categories.map((category) => (
                         <li
                             className={`mx-1 ${

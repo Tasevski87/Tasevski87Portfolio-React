@@ -21,8 +21,8 @@ const PhotoList = ({ category }) => {
         {
             name: 'Group Project 1',
             category: 'projects',
-            description:
-                'Group Project 1 Dog App for people who travel'
+            description: 
+            <a href="https://github.com/Shy-F/ruff-ruff">Group Project 1 Dog App for people who travel</a>
         },
         {
             name: 'Group Project 2',
