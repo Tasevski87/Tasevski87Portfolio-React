@@ -11,7 +11,7 @@ function App() {
     { name: 'About me ' },
     { name: 'Contact' },
     { name: 'projects' },
-    { name: 'resume' }
+    { name: 'Resume' }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
