@@ -25,7 +25,7 @@ function App() {
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
-      
+
       <main>
         {!contactSelected ? (
           <>
@@ -47,7 +47,3 @@ function App() {
 }
 
 export default App;
-
-
-//https://coolors.co/54428e-8963ba-afe3c0-90c290-688b58
-//https://reactgo.com/react-sticky-footer/
