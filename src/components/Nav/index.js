@@ -35,6 +35,11 @@ function Nav(props) {
                         Contact
                         </span>
                     </li>
+                    <li className="mx-2">
+                        <a href="#projects" onClick={() => setContactSelected(false)}>
+                            Projects
+                        </a>
+                    </li>
 
                     <li className="mx-2">
                         <a href="#resume" onClick={() => setContactSelected(false)}>
@@ -42,7 +47,7 @@ function Nav(props) {
                         </a>
                         
                     </li>
-                    {categories.map((category) => (
+                    {/* {categories.map((category) => (
                         <li
                             className={`mx-1 ${
                                 currentCategory.name === category.name && !contactSelected && 'navActive'
@@ -57,9 +62,9 @@ function Nav(props) {
                             >
                                 {capitalizeFirstLetter(category.name)}
                             </span>
-                        </li>
+                        </li> 
                         
-                    ))}
+                    ))} */}
                 </ul>
             </nav>
         </header>
