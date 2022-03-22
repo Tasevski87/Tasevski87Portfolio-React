@@ -14,7 +14,7 @@ function Page({ currentCategory }) {
                 return <About  />;
             case 'projects':
                 return <Gallery currentCategory = { currentCategory } />;
-            case 'contact':
+            case 'Contact':
                 return <ContactForm />;
             case 'resume':
                 return <Resume />;

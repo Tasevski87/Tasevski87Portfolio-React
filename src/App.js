@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-import About from './components/About';
-import Gallery from './components/Gallery'
-import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Page from './components/Page';
 
@@ -12,7 +9,7 @@ import Page from './components/Page';
 function App() {
   const [categories] = useState([
     { name: 'About me ' },
-    { name: 'contact' },
+    { name: 'Contact' },
     { name: 'projects' },
     { name: 'resume' }
   ]);
@@ -32,17 +29,6 @@ function App() {
 
       <main>
       <Page currentCategory = { currentCategory } ></Page>
-
-
-        {/* {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-          
-        )} */}
       </main>
       <div className="App">
         <Footer />
