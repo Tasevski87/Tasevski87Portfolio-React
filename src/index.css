@@ -6,8 +6,8 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #13E1A0;
-  --light: #BB3E03;
+  --secondary: whitesmoke;
+  --light: white;
   --dark: #8963BA;
   --neonBlue: #6776FF;
   --spacing-one: calc(1rem * 0.5);
@@ -66,6 +66,7 @@ h3 {
 h4 {
   font-size: 1.5rem;
 }
+
 p {
   font-size: 1.1rem;
   margin-top: 0;
@@ -79,6 +80,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  background-color: black;
 }
 
 header {
@@ -133,6 +135,7 @@ input {
 input:focus {
   border: 4px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+
 }
 
 li {
@@ -148,23 +151,16 @@ nav  li {
 }
 
 textarea {
-	width: 600px;
+	width: 250px;
 	height: 120px;
-	border: 3px solid #cccccc;
+	border: 3px solid var(--dark);
 	padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  
 }
 
 .space-between {
@@ -183,7 +179,6 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
-  
 }
 
 .my-1 {
@@ -196,7 +191,12 @@ textarea {
   margin-bottom: var(--spacing-two);
   padding-left: 50px;
   padding-right: 50px;
-  
+}
+.my-3 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+  padding-left: 1px;
+  padding-right: 50px;
 }
 
 .my-5 {
@@ -213,8 +213,8 @@ textarea {
   border-radius: 40px;
   background-color: var(--secondary);
   font-size: auto;
-
 }
+
 
 .px-1 {
   padding-right: var(--spacing-one);
@@ -266,7 +266,7 @@ span[role='img'] {
 }
 
 .modalContainer {
-	background: black;
+	background: whitesmoke;
 	border-radius: 5px;
 	max-width: 100%;
 	margin: 50px auto;
@@ -302,16 +302,26 @@ a {
 	
 }
 
-.navActive {
-  color: var(--secondary);
-}
-
-.footer{
- 
+.social-container {
   padding: 0.5rem;
   background-color: var(--neonBlue);
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display:inline-block;
+  
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.facebook {
+  color: whitesmoke;
+}a.linkedin {
+  color: whitesmoke;
 }

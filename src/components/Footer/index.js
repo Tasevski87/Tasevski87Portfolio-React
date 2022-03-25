@@ -1,8 +1,29 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faFacebook,
+    faLinkedin,
+    faGithub
+} from "@fortawesome/free-brands-svg-icons";
+
 
 const Footer = () => (
-    <div className="footer">
-        <h4>&copy; 2022 Toshe Tasevski</h4>
+    <div class="social-container">
+        <div class="social-container">
+        &copy; 2022 Toshe Tasevski
+            <a href="https://www.facebook.com/"
+                className="facebook social">
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
+            <a href="https://www.linkedin.com/feed/"
+                className="linkedin social">
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
+            <a href="https://github.com/"
+                className="linkedin social">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
+        </div>
     </div>
 
 );
