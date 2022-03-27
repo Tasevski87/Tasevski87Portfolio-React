@@ -7,7 +7,7 @@ function Gallery(props ) {
     const { currentCategory } = props;
     return (
         <section>
-            <PhotoList category={currentCategory.name} />
+            <PhotoList  category={currentCategory.name} />
         </section>
     );
 }
