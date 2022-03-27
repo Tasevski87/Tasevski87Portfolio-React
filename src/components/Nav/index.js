@@ -24,7 +24,7 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="#about" onClick={() => setCurrentCategory(categories[0])}>
+                        <a data-testid="about" href="#about" onClick={() => setCurrentCategory(categories[0])}>
                             About me
                         </a>
                     </li>

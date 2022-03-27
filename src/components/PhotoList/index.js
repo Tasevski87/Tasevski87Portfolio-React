@@ -10,13 +10,13 @@ const PhotoList = ({ category }) => {
             name: 'Portfolio',
             category: 'projects',
             description:
-                'My portfolio created with HTML'
+            <a href="https://github.com/Tasevski87/Portfolio">Html and Css Portfolio</a> 
         },
         {
             name: 'Social Network Api',
             category: 'projects',
             description:
-                'Social Network Api project backend'
+            <a href="https://github.com/Tasevski87/Social-Network-API"> NoSQL Social Network API</a>
         },
         {
             name: 'Group Project 1',
@@ -28,19 +28,19 @@ const PhotoList = ({ category }) => {
             name: 'Group Project 2',
             category: 'projects',
             description:
-                'Group Project 2 Project managment app'
+            <a href="https://github.com/Tasevski87/project-management-app"> Interactive Full-Stack Project Overseer</a> 
         },
         {
             name: 'Budget Tracker',
             category: 'projects',
             description:
-                'Finance tracking Application eith ability to work offline '
+            <a href="https://github.com/Tasevski87/Budget-Tracker"> Progressive Web Application Budget Tracker</a>
         },
         {
             name: 'Tech Blog',
             category: 'projects',
             description:
-                'Blog app '
+            <a href="https://github.com/Tasevski87/Tech-Blog"> Model-View-Controler Tech Blog</a>
         },
     ]);
 

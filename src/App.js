@@ -6,12 +6,13 @@ import Page from './components/Page';
 
 
 
+
 function App() {
   const [categories] = useState([
     { name: 'About me ' },
     { name: 'Contact' },
     { name: 'projects' },
-    { name: 'resume' }
+    { name: 'Resume' }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -19,7 +20,8 @@ function App() {
 
   return (
     <div>
-      <Nav
+      
+      <Nav 
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
@@ -31,6 +33,7 @@ function App() {
       <Page currentCategory = { currentCategory } ></Page>
       </main>
       <div className="App">
+  
         <Footer />
       </div>
     </div>
