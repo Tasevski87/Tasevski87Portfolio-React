@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tasevski87portfolio-react/static/css/main.6be0a02c.css",
+    "main.js": "/tasevski87portfolio-react/static/js/main.025ea96b.js",
+    "static/js/787.79902f06.chunk.js": "/tasevski87portfolio-react/static/js/787.79902f06.chunk.js",
+    "static/media/cover-image.jpg": "/tasevski87portfolio-react/static/media/cover-image.64b071b20076ee45ae31.jpg",
+    "static/media/cover-image1.jpg": "/tasevski87portfolio-react/static/media/cover-image1.dbf63f5f8ad1e1c26822.jpg",
+    "static/media/0.jpg": "/tasevski87portfolio-react/static/media/0.52cac228c52695285ec1.jpg",
+    "static/media/4.jpg": "/tasevski87portfolio-react/static/media/4.94c7b5b94aca2a4c703c.jpg",
+    "static/media/3.jpg": "/tasevski87portfolio-react/static/media/3.7342dd9b8bb65364dc66.jpg",
+    "static/media/2.jpg": "/tasevski87portfolio-react/static/media/2.77f1e41c841395202a04.jpg",
+    "static/media/1.jpg": "/tasevski87portfolio-react/static/media/1.1f26c04f1b66d49b32bf.jpg",
+    "static/media/5.jpg": "/tasevski87portfolio-react/static/media/5.61328672b48e676a4ab1.jpg",
+    "index.html": "/tasevski87portfolio-react/index.html",
+    "main.6be0a02c.css.map": "/tasevski87portfolio-react/static/css/main.6be0a02c.css.map",
+    "main.025ea96b.js.map": "/tasevski87portfolio-react/static/js/main.025ea96b.js.map",
+    "787.79902f06.chunk.js.map": "/tasevski87portfolio-react/static/js/787.79902f06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6be0a02c.css",
+    "static/js/main.025ea96b.js"
+  ]
+}
